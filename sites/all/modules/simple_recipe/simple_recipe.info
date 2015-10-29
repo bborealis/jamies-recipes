@@ -1,0 +1,5 @@
+name = Simple Recipe
+description = Simplifies the recipe content type.
+package = Support Modules
+core = 7.x
+files[] = simple_recipe.module
