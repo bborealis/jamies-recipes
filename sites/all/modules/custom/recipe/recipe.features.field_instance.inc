@@ -55,12 +55,12 @@ function recipe_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-recipes-field_ingredients'.
-  $field_instances['node-recipes-field_ingredients'] = array(
+  // Exported field_instance: 'node-recipes-field_in'.
+  $field_instances['node-recipes-field_in'] = array(
     'bundle' => 'recipes',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'List of ingredients including quantities.',
+    'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -77,7 +77,7 @@ function recipe_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_ingredients',
+    'field_name' => 'field_in',
     'label' => 'Ingredients',
     'required' => 1,
     'settings' => array(
@@ -148,7 +148,6 @@ function recipe_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Detailed preparation instructions.');
   t('Ingredients');
-  t('List of ingredients including quantities.');
   t('Picture');
   t('Preperation');
 
